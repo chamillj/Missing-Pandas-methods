@@ -96,6 +96,7 @@
   </div>
 
   ```python
+  DFE = DfOneHotEncoder()
   test= DFE.fit_transform(raw_data, ["Embarked", "Sex"], drop_first=True)
   ```
 
